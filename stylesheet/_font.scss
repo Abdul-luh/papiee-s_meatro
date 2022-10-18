@@ -1,0 +1,82 @@
+@use "./colors" as *;
+
+// nav-brand
+@mixin navBrand {
+    font-size: 1.125em;
+    font-weight: 900;
+    font-family: lora, serif;
+    color: $pryColor !important;
+}
+
+// nav-item
+@mixin navItem {
+    font-size: 1.0625em;
+    font-family: lora, serif;
+    color: $pryColor !important;
+}
+
+// h1 font
+@mixin h1 {
+    font-size: 3.5em;
+    font-weight: 900;
+    font-family: lora, serif;
+    color: $pryColor;
+}
+
+// h2 font
+@mixin h2 {
+    font-size: 1em;
+    font-weight: 900;
+    font-family: lora, serif;
+    color: $pryTextColor;
+}
+// h3 font
+@mixin h3 {
+    font-size: 1.0625em;
+    font-family: lora, serif;
+    color: $pryTextColor;
+}
+
+// button font
+@mixin button {
+    font-size: 1em;
+    font-family: karla, sans-serif;
+    color: $pryBtnColor;
+}
+
+// quote font
+@mixin quote {
+    font-size: 1em;
+    font-family: karla, sans-serif;
+    color: $pryTextColor;
+}
+
+// paragraph font
+@mixin p {
+    font-size: 1em;
+    font-family: karla, sans-serif;
+    color: $pryTextColor;
+}
+
+// muted font
+@mixin muted {
+    font-size: 1em;
+    font-family: karla, sans-serif;
+    color: $pryTextColor;
+}
+
+// cites font
+@mixin cites {
+    font-size: 1em;
+    font-size: 900;
+    font-family: lora, serif;
+    font-style: normal;
+    color: $pryColor;
+}
+
+// footer font
+@mixin footer {
+    font-size: 0.75em;
+    font-family: lora, serif;
+    color: $pryColor;
+}

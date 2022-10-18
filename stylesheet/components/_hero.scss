@@ -1,0 +1,22 @@
+@use "../font" as*;
+@use "../colors" as*;
+
+.heading1{
+    @include h1
+}
+
+.heroText{
+    text-align: center;
+}
+
+.btn{
+    background-color: $pryColor !important;
+    border: 0.5px solid $pryColor !important;
+}
+
+.heroImg{
+    width: 100%;
+    padding: 5%;
+    // border-bottom: 0.2px solid gray;
+    margin: 5px;
+}

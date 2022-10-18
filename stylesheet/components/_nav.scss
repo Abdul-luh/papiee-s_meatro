@@ -1,0 +1,26 @@
+@use "../font" as *;
+@use "../colors" as*;
+
+.navbar{
+    box-shadow: 0px 2px 10px #b6b6b6;
+    margin-bottom: 100px;
+}
+
+.navBrand{
+    @include navBrand;
+    margin-left: 10px
+    // color: $pryColor !important;
+
+}
+
+.navWrap{
+    display: flex;
+}
+
+.navbar-item{
+    @include navItem; 
+    text-decoration: none;
+    display: inline-block;
+    justify-content: right;
+    margin: 5px;
+}

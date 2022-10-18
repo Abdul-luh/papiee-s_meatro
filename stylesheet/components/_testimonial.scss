@@ -1,0 +1,15 @@
+@use "../colors" as*;
+@use "../font" as*;
+.heading2{
+    @include h2;
+    text-align: center;
+
+}
+
+.quoteContainer{
+    margin: 10px;
+}
+
+.citations{
+    @include cites;
+}
